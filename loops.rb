@@ -1,4 +1,4 @@
-# using next and break
+
 
 x = 0
 loop do
@@ -10,3 +10,15 @@ loop do
     if x > 10
         break
     end
+    puts x
+end
+
+y = 1
+
+
+
+i = 0
+while i < 5
+puts "Hello Ruby"
+i += 1
+end
