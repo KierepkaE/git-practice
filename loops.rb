@@ -13,12 +13,13 @@ loop do
     puts x
 end
 
-y = 1
-
-
 
 i = 0
 while i < 5
 puts "Hello Ruby"
 i += 1
+end
+
+until(text = gets.chomp) == "exit"
+    puts ">> #{text}"
 end
