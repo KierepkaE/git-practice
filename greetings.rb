@@ -1,7 +1,7 @@
-puts "Hello!What's your name?"
+puts "Hello! What's your name?"
 name = gets.chomp.capitalize
 
-if (name[0] == "S")
+if (name.chr == "S")
   puts "#{name.upcase}!!!!"
 else
   puts "Hi #{name}."
