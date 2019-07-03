@@ -2,6 +2,6 @@ arr = ["Hello", "there", "friend!"]
 index = 0
 
 while index < arr.length do
- puts "I'm looping! Watch me!"
+ puts "Array current index: #{index}"
  index += 1
 end
