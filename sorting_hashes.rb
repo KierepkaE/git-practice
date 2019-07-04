@@ -5,16 +5,16 @@ players = [
   { :name => "Mark", :sport => "football" }
   ]
 
-players_by_sport = {}
+sorted = {}
 
 players.each do |player|
   sport = player[:sport]
 
-  if players_by_sport[sport] == nil
-    players_by_sport[sport] = []
+  if sorted[sport] == nil
+    sorted[sport] = []
   end
 
-  players_by_sport[sport].push(player[:name])
+  sorted[sport].push(player[:name])
 end
 
-puts players_by_sport
+puts sorted
