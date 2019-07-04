@@ -17,4 +17,4 @@ players.each do |player|
   players_by_sport[sport].push(player[:name])
 end
 
-players_by_sport
+puts players_by_sport
