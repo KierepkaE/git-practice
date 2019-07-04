@@ -5,5 +5,6 @@ def average(scores)
     scores_accumulator += scores
   end
 
-  result = scores_accumulator.to_f / scores.length
+  puts (scores_accumulator.to_f / scores.length).to_s
+  scores_accumulator.to_f / scores.length
 end
