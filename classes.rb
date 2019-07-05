@@ -17,3 +17,12 @@ class String
   end
 end
 
+class Dog
+  def bark
+    return 'Woof!'
+  end
+  def run
+    return 'running running . . .'
+  end
+end
+
