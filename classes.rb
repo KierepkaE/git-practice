@@ -24,5 +24,13 @@ class Dog
   def run
     return 'running running . . .'
   end
+  def colour=(colour)
+    @colour = colour
+
+  end
+
+  def observe
+    return "You see a #{@colour} dog"
+  end
 end
 
