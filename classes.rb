@@ -34,3 +34,15 @@ class Dog
   end
 end
 
+class Robot
+  def legs=(number_of_legs)
+    @number_of_legs = number_of_legs
+  end
+  def add_legs
+    @number_of_legs += 1
+  end
+  def walk
+    return "I'm walking on my #{@number_of_legs} legs!"
+  end
+end
+
