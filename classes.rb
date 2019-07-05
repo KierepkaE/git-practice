@@ -10,3 +10,10 @@ class Array
 
   end
 end
+
+class String
+  def shoutify
+     self.upcase + "!"
+  end
+end
+
