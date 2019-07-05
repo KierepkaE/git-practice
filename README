@@ -1,7 +1,7 @@
 Introductory Ruby exercises
-1. Hello World
-2. Hello irb
-3. Greeter
+1.Hello World
+2.Hello irb
+3.Greeter
 4.Loops
 5.Methods
 6.Adventure Game
@@ -9,5 +9,6 @@ Introductory Ruby exercises
 8.Arrays
 9.Greetings
 10.Hashes
-11. Sorting with Hashes
-12. Average Method
+11.Sorting with Hashes
+12.Average Method
+13.Classes
