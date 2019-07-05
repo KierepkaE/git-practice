@@ -75,3 +75,14 @@ class Airport
     end
   end
 end
+
+class Plane
+  def initialize(plane)
+    @plane = plane
+  end
+end
+
+stansted = Airport.new()
+fr1823 = Plane.new('fr1823')
+stansted.land(fr1823)
+stansted.hangar_report
