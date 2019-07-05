@@ -18,17 +18,15 @@ class String
 end
 
 class Dog
+  def initialize(colour)
+    @colour = colour
+  end
   def bark
     return 'Woof!'
   end
   def run
     return 'running running . . .'
   end
-  def colour=(colour)
-    @colour = colour
-
-  end
-
   def observe
     return "You see a #{@colour} dog"
   end
@@ -38,7 +36,7 @@ class Robot
   def legs=(number_of_legs)
     @number_of_legs = number_of_legs
   end
-  def add_legs
+  def add_leg
     @number_of_legs += 1
   end
   def walk
