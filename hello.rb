@@ -1,2 +1,8 @@
 #!/usr/bin/env ruby
-puts "Hello Makers Academy!"
+
+name = "Ruby Monstas!"
+name.prepend("Oh, nice to meet you ").upcase
+
+puts name
+
+
