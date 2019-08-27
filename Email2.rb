@@ -1,4 +1,6 @@
 class Email
+  
+  
   def initialize(subject,headers)
     @subject = subject
     @headers = headers
